@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "High-level UI components that leverage the react-bootstrap library.",
   "repository": {
     "type": "git",
@@ -30,8 +30,7 @@
   "author": "Mathieu M-Gosselin <mathieumg@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react": ">=0.13",
-    "react-bootstrap": ">=0.23"
+    "react": ">=0.13"
   },
   "devDependencies": {
     "babel": "^5.1.10",
@@ -89,6 +88,7 @@
     "yargs": "^3.5.4"
   },
   "dependencies": {
-    "classnames": "^2.0.0"
+    "classnames": "^2.0.0",
+    "react-bootstrap": "^0.23.0"
   }
 }
