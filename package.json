@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "High-level UI components that leverage the react-bootstrap library.",
   "repository": {
     "type": "git",
