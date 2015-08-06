@@ -32,7 +32,6 @@ export default class ConfirmationTrigger extends Component {
 
   static defaultProps = {
     bsSize: "small",
-    translate: this.translate,
     translationKeys: {
       confirmation: "Confirmation",
       message: "Are you sure you want to do this?",
@@ -84,6 +83,10 @@ export default class ConfirmationTrigger extends Component {
   }
 
   translate = (keyName) => {
+    if (this.props.translate) {
+      return this.props.translate(keyName);
+    }
+
     return this.props.translationKeys[keyName] || keyName;
   }
 
