@@ -110,6 +110,7 @@ export default class ConfirmationTrigger extends Component {
       [
         child.props.children,
         <BSModal
+          key="modal"
           bsSize={bsSize}
           onHide={this.onNo}
           show={this.state.isOverlayShown}
