@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from "react/addons";
+import React, {Component, PropTypes} from "react";
 import BSButton from "react-bootstrap/Button";
 import BSModal from "react-bootstrap/Modal";
 import createChainedFunction from "react-bootstrap/utils/createChainedFunction";
